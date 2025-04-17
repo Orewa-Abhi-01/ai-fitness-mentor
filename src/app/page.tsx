@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
+// import { Button } from "@/components/ui/button";
 import { SignedIn, SignedOut, SignInButton } from "@clerk/clerk-react";
 import { SignOutButton } from "@clerk/nextjs";
 import React from "react";
@@ -15,7 +15,7 @@ const Homepage = () => {
       <SignedIn>
         <SignOutButton />
       </SignedIn>
-      <Button>Test</Button>
+      {/* <Button>Test</Button> */}
     </div>
   );
 };
