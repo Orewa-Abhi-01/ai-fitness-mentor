@@ -55,9 +55,12 @@
   --cyber-blue-dark: #0b4a7d;
   --cyber-blue-glow: #38bdf8;
   --cyber-accent: #0ff4;
+  --orange-storm: #ec4e39;
+  --original-black: #000000;
 
   /* Background */
   --background: var(--cyber-dark);
+  /* --background: var(--original-black); */
   --foreground: #f2f2f2;
 
   /* Card and popover elements */
@@ -68,6 +71,7 @@
 
   /* Primary - Main blue */
   --primary: var(--cyber-blue-bright);
+  /* --primary: var(--orange-storm); */
   --primary-foreground: var(--cyber-dark);
 
   /* Secondary - Darker blue */
@@ -107,6 +111,7 @@
 
   /* Custom Cyberpunk UI Variables */
   --cyber-grid-color: rgba(24, 206, 242, 0.05);
+  /* --cyber-grid-color: rgba(52, 145, 161, 0.089); */
   --cyber-glow-primary: rgba(24, 206, 242, 0.2);
   --cyber-glow-strong: rgba(24, 206, 242, 0.5);
   --cyber-line-color: rgba(24, 206, 242, 0.3);
