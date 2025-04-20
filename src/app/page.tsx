@@ -74,7 +74,7 @@ const Homepage = () => {
                   className="overflow-hidden bg-primary text-primary-foreground px-8 py-6 text-lg font-medium hover:scale-105 hover:bg-primary/90 transform duration-300 ease-in-out"
                 >
                   <Link
-                    href={"/generate-program"}
+                    href={"/generate-programs"}
                     className="flex items-center font-mono font-semibold"
                   >
                     Build Your Program
